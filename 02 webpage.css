@@ -1,0 +1,52 @@
+
+        .main{
+            margin: 0;            
+            background-color: black;
+            height: 10vh;            
+            line-height: 50px;
+            font-size: x-large;
+        }
+
+        .l1{
+            float: left;
+            padding: 0 5px;
+            list-style-type: none;
+        }
+
+        a{
+            display: block;
+            color: aqua;
+            text-decoration: none; /* text decoration= none help to remove underline below nav text */
+        }
+        
+        a:hover{
+            color: red;
+        }
+
+
+       
+        #d1{
+            display: flex;
+            
+        }
+
+        .box {
+            width: 20vw;
+            height: 80vh;
+            background-color: yellow;
+            flex-direction: row;
+            padding-left: 20px;
+            
+        }
+        #b1{
+            margin-right: 60vw;
+        }
+        
+        footer{
+            background-color: black;
+            height: 10vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
